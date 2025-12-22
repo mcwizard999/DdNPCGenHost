@@ -1,0 +1,8 @@
+- Fixed view field always saying "Number must be between 1 and x"
+- Optimized code by creating the editField method in main.py
+- Changed the features Strong, Lithe, Hearty, Logical, Wary, and Charming to change their stat to 6d6 drop the two lowest
+- Added the Demi-god and Kobold species
+- Added the 2.3 metres tall and 1 metre tall Detail
+- Renamed Quirk.json to Detail.json, Quirks to details, quirkData to detailData, and quirkMax to detailMax to match the UI
+- Added the Boring feature that does nothing
+- Fixed a bug that allowed the same npc to be kept multiple times

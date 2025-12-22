@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Bart",
+        "pronouns": "She/He",
+        "species": "Merfolk",
+        "npcClass": "Warlock",
+        "alignment": "Neutral Evil",
+        "quirk": "Always wears summer clothing, regardless of the weather",
+        "feature": "Wary",
+        "strength": 13,
+        "dexterity": 8,
+        "constitution": 16,
+        "intelligence": 16,
+        "wisdom": 26,
+        "charisma": 10
+    }
+]
