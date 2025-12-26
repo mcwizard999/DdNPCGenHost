@@ -20,10 +20,15 @@
 }
 .DownloadButton {
     width: 100px;
-    flex-shrink: 0;
+    height: 75px;
 }
 
 /* Core HTML */
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button span {
+    display: flex;
+    align-items: space-between;
+    gap: 5px;
 }
