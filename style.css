@@ -20,38 +20,42 @@
     margin-right:auto;
 }
 .DownloadButton {
-    color: black;
-    background-color: orangered;
+    color: white;
+    background-color: rgb(247, 59, 59);
     text-decoration: none;
 
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-radius: 25px;
-    border-color: darkred;
+    border-color: rgb(247, 59, 59);
     
     width: 125px;
     margin:5px;
 }
 .DownloadText {
-    padding:5px;
+    padding:3px 1px;
     text-align:center;
-    font-size:12px;
+    font-size:16px;
+    font-family: sans-serif;
     
 }
 .NonFlexButtons {
-    color: black;
-    background-color: orangered;
-    font-size:12px;
+    color: white;
+    background-color: rgb(247, 59, 59);
     text-decoration: none;
-    padding-left:10px;
-    padding-right:10px;
 
     border-style: solid;
-    border-width: 10px;
+    border-width: 5px;
     border-radius: 25px;
-    border-color: darkred;
+    border-color: rgb(247, 59, 59);
     
     width: 125px;
+    margin:5px;
+
+    padding:3px 1px;
+    text-align:center;
+    font-size:16px;
+    font-family: sans-serif;
 }
 
 /* Core HTML */
