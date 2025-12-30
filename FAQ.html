@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frequently Asked Questions</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Frequently Asked Questions</h1>
+        <a href = "index.html" style = "text-decoration: none;"><h3 class = "NonFlexButtons" style = "width: 60px; font-size: 18px;">Home</h3></a>
+        <p>
+            Nobody has actually asked any questions yet, but I thought I'd put some stuff here that somebody would probably ask questions about
+        </p>
+        <ul>
+            <li>
+                <p>
+                    <b>Q</b>: What's the difference between a full build and source code?
+                    <br>
+                    <b>A</b>: A full build is all the files produced when I built this project. It's only really useful if the one file doesn't work.
+                    <br>
+                    Source code means all the code that was used to make this project. If you want to mod or port this app, this is what you need.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: Why isn't there a full build option in versions 1.0.2 and above?
+                    <br>
+                    <b>A</b>: The full build file is included in the source code. It's the "dist" and "build" folders.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: What's the latest version?
+                    <br>
+                    <b>A</b>: Version 1.0.2 for windows, no versions are out for mac or linux
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: Does this program support Mac and Linux?
+                    <br>
+                    <b>A</b>: Not currently. There are plans for porting to Mac, however this will be updated slower. There are no plans to port to Linux.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: Can I add my own options to the generator?
+                    <br>
+                    <b>A</b>: Not without downloading and modifiying the source code. If you want to add anything that isn't a feature, simply add more entries to the json file.
+                    <br>
+                    If you want to add a feature without it doing anything, do as above, but don't add it to the end of the list. "Multi Feature" must be the last element in the list for it to work correctly.
+                    <br>
+                    If you want to add a new category, or make a feature that does something, it requires knowledge of python. I might make a tutorial on how to do it someday.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: I've modified source code, and want to share the result with my friends. How do I do that?
+                    <br>
+                    <b>A</b>: Install pyinstaller (Look it up), then run 
+                    <br>
+                    'pyinstaller --onefile --windowed --add-data "npcs.json;." --add-data "NPC Data;NPC Data" main.py' without the quotation marks at the start and end.
+                    <br>
+                    That will give you a "build" and "dist" folder. The .exe is found in the dist folder.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: Anything about 1.1
+                    <br>
+                    <b>A</b>: Development probably wont start until Feb 1st, because I have other stuff to do.
+                    <br>
+                    1.1.1 will add adding custom names/pronouns/etc without the use of modding. 
+                    <br>
+                    Further support and ease will be added in future versions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Q</b>: What if my question isn't on this list?
+                    <br>
+                    <b>A</b>: Hit me up! I'm on discord, and will soon have a business email, which will be added here.
+                </p>
+            </li>
+        </ul>
+    </body>
+</html>
