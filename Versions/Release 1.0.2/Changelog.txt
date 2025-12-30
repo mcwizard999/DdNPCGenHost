@@ -1,0 +1,13 @@
+- Added an effect to boring, which changes the name from "Name" to "Name the boring"
+- Added the "lastName" field to npcClass, which is printed when calling npcClass as a string
+- Added " the Boring" to last name instead of first name
+- Added a button which opens a window shows credits
+- Replaced He/Him (Cis) and He/Him (Trans) with He/Him
+- Replaced She/Her (Cis) and She/Her (Trans) with She/Her
+- Added more clear separators between classes and species
+- Added the multi feature, multi class, and multi species features
+- Increased the size of viewNPC field from 500x100 to 500x150
+- Changed features Strong, Lithe, Hearty, Logical, Wary and Charming to do 6d6, drop the 2 lowest, and reroll 1's
+- Changed features Weak, Clumsy, Fragile, Illogical, Rash, and Humorless to do 4d6, drop the 2 lowest. 
+- Made viewNPC and NPCList text elements to wrap on words
+- Changed "Speak in third person" to "Speaks in third person"
