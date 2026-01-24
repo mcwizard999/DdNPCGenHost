@@ -1,0 +1,13 @@
+- Added more first names 
+- Added more surnames
+- Changed the textures of the buttons
+- Fixed an error which allowed you to add "None" to your saved NPCs
+- Made clicking on viewField when it contains text remove all text
+- Added button images when not being pressed and being pressed
+- Added a background image
+- Fixed the credits window
+- Changed UI to use the Canvas System
+- Made buttons move by (2, 2) then (-2, -2) when clicked
+- Added a header
+- Added a logo, so nobody can steal the app
+- Made all images use getLocalFile.resource_path() to avoid crashing
